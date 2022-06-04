@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="zh-CN">
 
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="zfy的hadoop学习历程, zfy@96">
+    <meta name="keywords" content="zfy的hadoop学习历程, Z F Y">
     <meta name="description" content="Hadoop StartHadoo启动和集群搭建123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
 
     
 
-    <title>zfy的hadoop学习历程 | zfy@96</title>
+    <title>zfy的hadoop学习历程 | Z F Y</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -32,7 +32,10 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.1.0"></head>
+<meta name="generator" content="Hexo 6.1.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Z F Y" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -44,7 +47,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">zfy@96</span>
+                    <span class="logo-span">Z F Y</span>
                 </a>
             </div>
             
@@ -58,7 +61,7 @@
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
-      <span>Index</span>
+      <span>首页</span>
     </a>
     
   </li>
@@ -69,7 +72,7 @@
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
-      <span>Tags</span>
+      <span>标签</span>
     </a>
     
   </li>
@@ -80,7 +83,7 @@
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>Categories</span>
+      <span>分类</span>
     </a>
     
   </li>
@@ -91,7 +94,7 @@
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
       
-      <span>Archives</span>
+      <span>归档</span>
     </a>
     
   </li>
@@ -102,7 +105,7 @@
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
-      <span>About</span>
+      <span>关于</span>
     </a>
     
   </li>
@@ -113,7 +116,7 @@
       
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
       
-      <span>Contact</span>
+      <span>留言板</span>
     </a>
     
   </li>
@@ -124,14 +127,66 @@
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
-      <span>Friends</span>
+      <span>友情链接</span>
     </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Medias</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/musics">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Music</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movies</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/galleries">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Galleries</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
 </ul>
@@ -143,10 +198,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">zfy@96</div>
+        <div class="logo-name">Z F Y</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            千万个雨滴在宇宙中共，一切突然的新奇，我好像很入迷，像个孩子般的，所以写不出辞藻华丽的文章，只好写写废话
             
         </div>
     </div>
@@ -159,7 +214,7 @@
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
-			Index
+			首页
 		</a>
           
         </li>
@@ -170,7 +225,7 @@
 			
 			    <i class="fa-fw fas fa-tags"></i>
 			
-			Tags
+			标签
 		</a>
           
         </li>
@@ -181,7 +236,7 @@
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
-			Categories
+			分类
 		</a>
           
         </li>
@@ -192,7 +247,7 @@
 			
 			    <i class="fa-fw fas fa-archive"></i>
 			
-			Archives
+			归档
 		</a>
           
         </li>
@@ -203,7 +258,7 @@
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
-			About
+			关于
 		</a>
           
         </li>
@@ -214,7 +269,7 @@
 			
 			    <i class="fa-fw fas fa-comments"></i>
 			
-			Contact
+			留言板
 		</a>
           
         </li>
@@ -225,8 +280,63 @@
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
-			Friends
+			友情链接
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Medias
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/musics " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Music</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/movies " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movies</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/galleries " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Galleries</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -429,7 +539,7 @@
                 <div class="col s7">
                     
                           <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            <span class="chip bg-color">无标签</span>
                           </div>
                     
                 </div>
@@ -441,7 +551,7 @@
             <div class="post-info">
                 
                 <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
                     2022-04-05
                 </div>
                 
@@ -463,10 +573,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Hadoop-Start"><a href="#Hadoop-Start" class="headerlink" title="Hadoop Start"></a>Hadoop Start</h2><h3 id="Hadoo启动和集群搭建"><a href="#Hadoo启动和集群搭建" class="headerlink" title="Hadoo启动和集群搭建"></a>Hadoo启动和集群搭建</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br></pre></td><td class="code"><pre><span class="line">$ Hadoop是分布式文件系统（HDFS）分布在集群内多台机器上，集群可以并行读取数据，进而提供很高的吞吐量；</span><br><span class="line">Hadoop的组成：</span><br><span class="line">Hadoop1.x：common（辅助工具）,hdfs（数据存储）,mapreduce(计算+资源调度)</span><br><span class="line">Hadoop2.x：common（辅助工具），hdfs（数据存储），MapReduce（计算）+Yarn（资源调度）</span><br><span class="line"></span><br><span class="line">hadoop相关组成部分介绍:</span><br><span class="line">	hadoop:</span><br><span class="line">		狭义来说，就是hadoop</span><br><span class="line">		广义来说，hadoop和它的生态圈都叫hadoop。</span><br><span class="line">	HDFS	 ： 分布式文件系统，</span><br><span class="line">		    用来存储数据</span><br><span class="line">		    主要是hdfs的命令操作，和hdfs代码操作</span><br><span class="line">	MapReduce : 并行程序的开发。</span><br><span class="line">		    一些有特点的MapReduce程序开发</span><br><span class="line">	yarn	: yarn运行的机制。怎么运行的。</span><br><span class="line"></span><br><span class="line">-----------------------day1--------------------------------</span><br><span class="line"></span><br><span class="line">Hadoop的三种启动模式：</span><br><span class="line">	1，独立模式：</span><br><span class="line">		一台机器。一个节点。</span><br><span class="line">		拿线程模拟进程，拿线程模拟多台机器，一般用来测试，</span><br><span class="line">		我们不用这个模式，因为线程是不好监控的，不好监控，</span><br><span class="line">		就不利于我们学习，不知道很多细节的问题。</span><br><span class="line"></span><br><span class="line">	2，伪分布模式:</span><br><span class="line">		我们要使用的模式，</span><br><span class="line">		一台机器，一个节点。</span><br><span class="line">		把多个进程运行在一台机器上 。以多进程的形式运行。</span><br><span class="line">	3，全分布集群模式</span><br><span class="line">		多台机器，进程的运行是每个节点有独立身份，每个节点运行特定功能。	</span><br><span class="line">		在这多台机器中，会有一个是主机器，我们叫主节点。</span><br><span class="line">		其他的机器叫从节点。主从结构。可以想象主节点是 司令，从节点是小兵。</span><br><span class="line"></span><br><span class="line">	注:全分布式集群和伪分布式集群，搭建过程是一样的，或者微调。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">hadoop集群搭建:</span><br><span class="line">	1,把共享文件夹中的hadoop-3.0.3.tar.gz 解压到~/soft下</span><br><span class="line">		tar -xvf /mnt/hgfs/gx/hadoop-3.0.3.tar.gz -C ~/soft/</span><br><span class="line">	2,把解压后的文件夹,改名字为hadoop</span><br><span class="line">		 <span class="built_in">mv</span> ~/soft/hadoop-3.0.3/ ~/soft/hadoop</span><br><span class="line">	3,修改机器名</span><br><span class="line">		先给/etc/hostname文件授予权限,然后再用vi打开,修改</span><br><span class="line">		sudo <span class="built_in">chmod</span> 777 /etc/hostname</span><br><span class="line">		vi /etc/hostname</span><br><span class="line">		内容改为hadooppd或者和我一样改为 mynn</span><br><span class="line">	4,修改机器名和ip映射关系</span><br><span class="line">		先给/etc/hosts文件授予权限,然后使用vi打开,修改.</span><br><span class="line">		sudo <span class="built_in">chmod</span> 777 /etc/hosts</span><br><span class="line">		vi /etc/hosts</span><br><span class="line">		添加</span><br><span class="line">		192.168.123.1	hadooppd</span><br><span class="line">		或者</span><br><span class="line">		192.168.123.1	mynn</span><br><span class="line">		注:这里的192.168.123.1为虚拟机使用ifconfig查询出来的ip地址.</span><br><span class="line">		   虚拟机在不同的网络下可能ip地址会发生改变.</span><br><span class="line">		   如果想固定虚拟机中的ip地址可以根据这个网址修改 : https://jingyan.baidu.com/article/db55b609e2b0664ba20a2f72.html</span><br><span class="line">	5,配置环境变量</span><br><span class="line">		vi ~/.bashrc</span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/home/briup/桌面/java/jdk1.8</span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line">		在最后一行添加下面内容</span><br><span class="line">		<span class="built_in">export</span> HADOOP_HOME=/home/briup/soft/hadoop</span><br><span class="line">		<span class="built_in">export</span> HADOOP_USER_NAME=mynn</span><br><span class="line">		<span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$HADOOP_HOME</span>/bin:<span class="variable">$HADOOP_HOME</span>/sbin</span><br><span class="line"></span><br><span class="line">		环境变量立刻生效:</span><br><span class="line">			<span class="built_in">source</span> ~/.bashrc</span><br><span class="line">		检查是否生效：java -version</span><br><span class="line">			hadoop version</span><br><span class="line">	6,修改配置文件:</span><br><span class="line">		6.1:hadoop-env.sh</span><br><span class="line">			vi ~/soft/hadoop/etc/hadoop/hadoop-env.sh</span><br><span class="line">			在37行 修改 </span><br><span class="line">			37 JAVA_HOME=/home/briup/soft/jdk</span><br><span class="line">		6.2:core-site.xml</span><br><span class="line">			</span><br><span class="line">		6.3:hdfs-site.xml</span><br><span class="line">			</span><br><span class="line">			</span><br><span class="line">		6.4:mapred-site.xml</span><br><span class="line">			</span><br><span class="line">		6.5:yarn-site.xml</span><br><span class="line">			</span><br><span class="line">	7,创建以上用到的文件夹</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/namenode</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/datanode</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/namenodeData</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/datanodeData</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/yarn/nm</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/yarn/logs</span><br><span class="line"><span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/tmp</span><br><span class="line"><span class="built_in">mkdir</span> -p /home/briup/桌面/bigdata/links/hadoop/logs</span><br><span class="line"></span><br><span class="line">		</span><br><span class="line">	8,初始化hdfs文件系统</span><br><span class="line">		hdfs namenode -format</span><br><span class="line">		注:一定要出现输入Y才算是正常了.不然一直初始化.</span><br><span class="line">	9,启动namenode:</span><br><span class="line">		hadoop-daemon.sh start namenode</span><br><span class="line">	10,启动datanode</span><br><span class="line">		hadoop-daemon.sh start datanode</span><br><span class="line">	</span><br><span class="line">	注: 9 和 10 可以简单实用 start-dfs.sh 一起启动</span><br><span class="line"></span><br><span class="line">	11,开启resourcemanager</span><br><span class="line">    		yarn-daemon.sh start resourcemanager</span><br><span class="line">	12,开启nodemanager</span><br><span class="line">   		 yarn-daemon.sh start nodemanager</span><br><span class="line">	注: 11 和 12 可以简单实用 start-yarn.sh 一起启动</span><br><span class="line"></span><br><span class="line">	注:第一次启动可能会报错,显示CID不匹配的错误.</span><br><span class="line">	   解决:去~/soft/hadoop/da/namenode和~/soft/hadoop/da/datanode目录中找到VERSION的文件.编辑.把两个文件夹中的VERSION文件CID值改为相同的,再次启动即可.</span><br><span class="line">	13,检测:</span><br><span class="line">		输入jps查看</span><br><span class="line">		briup@mynn:~$ jps</span><br><span class="line">		8481 NameNode</span><br><span class="line">		8956 DataNode</span><br><span class="line">		5886 ResourceManager</span><br><span class="line">		9295 Jps</span><br><span class="line">		有namenode 和 datanode 就成功</span><br><span class="line"></span><br><span class="line">		输入ifconfig查看linux的ip地址</span><br><span class="line">		在window中浏览器输入 上面看到的ip:9870然后看到hdfs管理界面即可。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	resourcemanager : 资源管理器</span><br><span class="line">	nodemanager     : 节点管理器</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="Hadoop的MapReduce"><a href="#Hadoop的MapReduce" class="headerlink" title="Hadoop的MapReduce"></a>Hadoop的MapReduce</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">$ hadoop中的数据类型</span><br><span class="line">int-----IntWritable</span><br><span class="line">long---LongWritable</span><br><span class="line">short---ShortWritable</span><br><span class="line">byte----ByteWritable</span><br><span class="line">double-DoubleWritable</span><br><span class="line">float----FloatWritable</span><br><span class="line">String----Text（Text里面的方法很少）</span><br><span class="line">5，计算模型的一种实现方式 MapReduce并行程序计算框架。</span><br><span class="line">	6，MapReduce 的优势:</span><br><span class="line">		1，不用自己考虑多进程调度，硬件资源的分配:比如(硬件的分配，网络资源分配)(yarn)。框架已经处理了。</span><br><span class="line">		2，把处理业务逻辑的代码提供扩展性，咱编写起来方便。</span><br><span class="line">	7，啥是MapReduce</span><br><span class="line">		1，大规模数据的并行处理程序</span><br><span class="line">		2，基于集群的高性能并行计算平台</span><br><span class="line">			我们可以在这个平台上做一些自定义的操作</span><br><span class="line">		3，并行程序设计模型和方法</span><br><span class="line">			咱一般说mapreduce是这个解释，mapreduce是一个编程模型，提供给我们一套使用的方式，我们只需要把自己的业务逻辑加进去。</span><br><span class="line">		4，并行程序开发和运行框架</span><br><span class="line">			是一个框架，其中有些代码和部分是缺失的，需要我们来填充内容。</span><br><span class="line">		5，MapReduce是一篇论文：在论文中把论文中的所有概念都描述清楚了。</span><br><span class="line">	</span><br><span class="line">	8，MapReduce的两个概念：</span><br><span class="line">		Map	： Map阶段 :</span><br><span class="line">			Map阶段就是映射阶段。</span><br><span class="line">			从数据集中提取key-value的映射关系，这些数据集中提取本次需要的数据，一行数据中只有一小部分本次有用。</span><br><span class="line">			提取到的key-value还有个作用，就是按照某个种类分类的作用。</span><br><span class="line">			前面介绍到并行程序就是要把大块数据按照特点整理为小块数据处理，这里的特点就是key值</span><br><span class="line">			在Map阶段就是要确定把哪个值从原始数据中提取出来作为key值，这个key值就是我们的分组的标准，</span><br><span class="line">			要拿出来哪些数据段作为value，进行传递进行计算</span><br><span class="line">		Reduce	： Reduce阶段</span><br><span class="line">			Reduce合并阶段。</span><br><span class="line">			计算方法也就是业务逻辑一般都写在reduce中，因为reduce阶段是可以进行合并的。这个合并过程就是按照我们所写的代码合并就可以了，对于同一种类下的数据进行合并，key相同的数据就认为是同一种类的数据。</span><br><span class="line"></span><br><span class="line">&lt;property&gt;</span><br><span class="line">        &lt;name&gt;yarn.application.classpath&lt;/name&gt;</span><br><span class="line">        &lt;value&gt;/home/briup/桌面/bigdata/links/hadoop/etc/hadoop:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/common/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/common/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/mapreduce/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/mapreduce/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn/*</span><br><span class="line">&lt;/value&gt;</span><br><span class="line">&lt;/property&gt;</span><br><span class="line">	9，MapReduce的数据流向:mapreduce数据流.png</span><br><span class="line">		Map阶段：</span><br><span class="line">			进 : 会接受到一对key-value，这个key-value是原始数据</span><br><span class="line">			出 : 一对key-value，从原始数据中进行整理处理，得到我们想要的key-value。</span><br><span class="line">		shuffle：混洗阶段（分区，分组，排序）</span><br><span class="line"> 				分区是在map中实现的，但是分组和排序是在reduce中实现的；</span><br><span class="line">			map输出的数据会经过混洗阶段，在这里会进行分类，把key相同的key-value数据当做同一个类，分到一个区中，分区。</span><br><span class="line">			分区完成以后，key值相同的数据就到了一起，指的是在硬盘上到存到了一起。</span><br><span class="line">			排序：</span><br><span class="line">			Map输出的数据分到哪一个Reduce中。</span><br><span class="line">		Reduce阶段：</span><br><span class="line">			进 :  key:[value,value,....]</span><br><span class="line">			出 :  也是key-value结构，可能一个也可能多个。</span><br><span class="line">			</span><br><span class="line">		注意:MapReuce是一个并行程序，后期会运行在多个节点上，一些节点运行Map 一些节点运行Reduce。</span><br><span class="line"></span><br><span class="line">yarn jar bs.bigdata-1.0-SNAPSHOT.jar com.briup.bs.bigdata.MR.WorldConutTest -D input=/MR/data/word.txt -D output=/MR/result/wordcount_re</span><br><span class="line"></span><br><span class="line"> hdfs dfs -<span class="built_in">cat</span> /MR/result/wordcount_rrrr/*</span><br><span class="line"></span><br><span class="line">错误: 找不到或无法加载主类 org.apache.hadoop.mapreduce.v2.app.MRAppMaster</span><br><span class="line">运行hadoop classpath</span><br><span class="line">复制返回结果</span><br><span class="line">打开vi bigdata/links/hadoop/etc/hadoop/yarn-site.xml</span><br><span class="line">&lt;property&gt;</span><br><span class="line">        &lt;name&gt;yarn.application.classpath&lt;/name&gt;</span><br><span class="line">        &lt;value&gt;hadoop classpath返回信息&lt;/value&gt;</span><br><span class="line">&lt;/property&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+                <h2 id="Hadoop-Start"><a href="#Hadoop-Start" class="headerlink" title="Hadoop Start"></a>Hadoop Start</h2><h3 id="Hadoo启动和集群搭建"><a href="#Hadoo启动和集群搭建" class="headerlink" title="Hadoo启动和集群搭建"></a>Hadoo启动和集群搭建</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br></pre></td><td class="code"><pre><span class="line">$ Hadoop是分布式文件系统（HDFS）分布在集群内多台机器上，集群可以并行读取数据，进而提供很高的吞吐量；</span><br><span class="line">Hadoop的组成：</span><br><span class="line">Hadoop1.x：common（辅助工具）,hdfs（数据存储）,mapreduce(计算+资源调度)</span><br><span class="line">Hadoop2.x：common（辅助工具），hdfs（数据存储），MapReduce（计算）+Yarn（资源调度）</span><br><span class="line"></span><br><span class="line">hadoop相关组成部分介绍:</span><br><span class="line">	hadoop:</span><br><span class="line">		狭义来说，就是hadoop</span><br><span class="line">		广义来说，hadoop和它的生态圈都叫hadoop。</span><br><span class="line">	HDFS	 ： 分布式文件系统，</span><br><span class="line">		    用来存储数据</span><br><span class="line">		    主要是hdfs的命令操作，和hdfs代码操作</span><br><span class="line">	MapReduce : 并行程序的开发。</span><br><span class="line">		    一些有特点的MapReduce程序开发</span><br><span class="line">	yarn	: yarn运行的机制。怎么运行的。</span><br><span class="line"></span><br><span class="line">-----------------------day1--------------------------------</span><br><span class="line"></span><br><span class="line">Hadoop的三种启动模式：</span><br><span class="line">	1，独立模式：</span><br><span class="line">		一台机器。一个节点。</span><br><span class="line">		拿线程模拟进程，拿线程模拟多台机器，一般用来测试，</span><br><span class="line">		我们不用这个模式，因为线程是不好监控的，不好监控，</span><br><span class="line">		就不利于我们学习，不知道很多细节的问题。</span><br><span class="line"></span><br><span class="line">	2，伪分布模式:</span><br><span class="line">		我们要使用的模式，</span><br><span class="line">		一台机器，一个节点。</span><br><span class="line">		把多个进程运行在一台机器上 。以多进程的形式运行。</span><br><span class="line">	3，全分布集群模式</span><br><span class="line">		多台机器，进程的运行是每个节点有独立身份，每个节点运行特定功能。	</span><br><span class="line">		在这多台机器中，会有一个是主机器，我们叫主节点。</span><br><span class="line">		其他的机器叫从节点。主从结构。可以想象主节点是 司令，从节点是小兵。</span><br><span class="line"></span><br><span class="line">	注:全分布式集群和伪分布式集群，搭建过程是一样的，或者微调。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">hadoop集群搭建:</span><br><span class="line">	1,把共享文件夹中的hadoop-3.0.3.tar.gz 解压到~/soft下</span><br><span class="line">		tar -xvf /mnt/hgfs/gx/hadoop-3.0.3.tar.gz -C ~/soft/</span><br><span class="line">	2,把解压后的文件夹,改名字为hadoop</span><br><span class="line">		 <span class="built_in">mv</span> ~/soft/hadoop-3.0.3/ ~/soft/hadoop</span><br><span class="line">	3,修改机器名</span><br><span class="line">		先给/etc/hostname文件授予权限,然后再用vi打开,修改</span><br><span class="line">		sudo <span class="built_in">chmod</span> 777 /etc/hostname</span><br><span class="line">		vi /etc/hostname</span><br><span class="line">		内容改为hadooppd或者和我一样改为 mynn</span><br><span class="line">	4,修改机器名和ip映射关系</span><br><span class="line">		先给/etc/hosts文件授予权限,然后使用vi打开,修改.</span><br><span class="line">		sudo <span class="built_in">chmod</span> 777 /etc/hosts</span><br><span class="line">		vi /etc/hosts</span><br><span class="line">		添加</span><br><span class="line">		192.168.123.1	hadooppd</span><br><span class="line">		或者</span><br><span class="line">		192.168.123.1	mynn</span><br><span class="line">		注:这里的192.168.123.1为虚拟机使用ifconfig查询出来的ip地址.</span><br><span class="line">		   虚拟机在不同的网络下可能ip地址会发生改变.</span><br><span class="line">		   如果想固定虚拟机中的ip地址可以根据这个网址修改 : https://jingyan.baidu.com/article/db55b609e2b0664ba20a2f72.html</span><br><span class="line">	5,配置环境变量</span><br><span class="line">		vi ~/.bashrc</span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/home/briup/桌面/java/jdk1.8</span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line">		在最后一行添加下面内容</span><br><span class="line">		<span class="built_in">export</span> HADOOP_HOME=/home/briup/soft/hadoop</span><br><span class="line">		<span class="built_in">export</span> HADOOP_USER_NAME=mynn</span><br><span class="line">		<span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$HADOOP_HOME</span>/bin:<span class="variable">$HADOOP_HOME</span>/sbin</span><br><span class="line"></span><br><span class="line">		环境变量立刻生效:</span><br><span class="line">			<span class="built_in">source</span> ~/.bashrc</span><br><span class="line">		检查是否生效：java -version</span><br><span class="line">			hadoop version</span><br><span class="line">	6,修改配置文件:</span><br><span class="line">		6.1:hadoop-env.sh</span><br><span class="line">			vi ~/soft/hadoop/etc/hadoop/hadoop-env.sh</span><br><span class="line">			在37行 修改 </span><br><span class="line">			37 JAVA_HOME=/home/briup/soft/jdk</span><br><span class="line">		6.2:core-site.xml</span><br><span class="line">			</span><br><span class="line">		6.3:hdfs-site.xml</span><br><span class="line">			</span><br><span class="line">			</span><br><span class="line">		6.4:mapred-site.xml</span><br><span class="line">			</span><br><span class="line">		6.5:yarn-site.xml</span><br><span class="line">			</span><br><span class="line">	7,创建以上用到的文件夹</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/namenode</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/datanode</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/namenodeData</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/datanodeData</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/yarn/nm</span><br><span class="line"> <span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/data/yarn/logs</span><br><span class="line"><span class="built_in">mkdir</span> -p /home/briup/.bigdata/hadoop/da/tmp</span><br><span class="line"><span class="built_in">mkdir</span> -p /home/briup/桌面/bigdata/links/hadoop/logs</span><br><span class="line"></span><br><span class="line">		</span><br><span class="line">	8,初始化hdfs文件系统</span><br><span class="line">		hdfs namenode -format</span><br><span class="line">		注:一定要出现输入Y才算是正常了.不然一直初始化.</span><br><span class="line">	9,启动namenode:</span><br><span class="line">		hadoop-daemon.sh start namenode</span><br><span class="line">	10,启动datanode</span><br><span class="line">		hadoop-daemon.sh start datanode</span><br><span class="line">	</span><br><span class="line">	注: 9 和 10 可以简单实用 start-dfs.sh 一起启动</span><br><span class="line"></span><br><span class="line">	11,开启resourcemanager</span><br><span class="line">&nbsp; &nbsp;&nbsp;		yarn-daemon.sh start resourcemanager</span><br><span class="line">	12,开启nodemanager</span><br><span class="line">&nbsp;&nbsp;&nbsp;		&nbsp;yarn-daemon.sh start nodemanager</span><br><span class="line">	注: 11 和 12 可以简单实用 start-yarn.sh 一起启动</span><br><span class="line"></span><br><span class="line">	注:第一次启动可能会报错,显示CID不匹配的错误.</span><br><span class="line">	   解决:去~/soft/hadoop/da/namenode和~/soft/hadoop/da/datanode目录中找到VERSION的文件.编辑.把两个文件夹中的VERSION文件CID值改为相同的,再次启动即可.</span><br><span class="line">	13,检测:</span><br><span class="line">		输入jps查看</span><br><span class="line">		briup@mynn:~$ jps</span><br><span class="line">		8481 NameNode</span><br><span class="line">		8956 DataNode</span><br><span class="line">		5886 ResourceManager</span><br><span class="line">		9295 Jps</span><br><span class="line">		有namenode 和 datanode 就成功</span><br><span class="line"></span><br><span class="line">		输入ifconfig查看linux的ip地址</span><br><span class="line">		在window中浏览器输入 上面看到的ip:9870然后看到hdfs管理界面即可。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	resourcemanager : 资源管理器</span><br><span class="line">	nodemanager     : 节点管理器</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+<h3 id="Hadoop的MapReduce"><a href="#Hadoop的MapReduce" class="headerlink" title="Hadoop的MapReduce"></a>Hadoop的MapReduce</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">$ hadoop中的数据类型</span><br><span class="line">int-----IntWritable</span><br><span class="line">long---LongWritable</span><br><span class="line">short---ShortWritable</span><br><span class="line">byte----ByteWritable</span><br><span class="line">double-DoubleWritable</span><br><span class="line">float----FloatWritable</span><br><span class="line">String----Text（Text里面的方法很少）</span><br><span class="line">5，计算模型的一种实现方式 MapReduce并行程序计算框架。</span><br><span class="line">	6，MapReduce 的优势:</span><br><span class="line">		1，不用自己考虑多进程调度，硬件资源的分配:比如(硬件的分配，网络资源分配)(yarn)。框架已经处理了。</span><br><span class="line">		2，把处理业务逻辑的代码提供扩展性，咱编写起来方便。</span><br><span class="line">	7，啥是MapReduce</span><br><span class="line">		1，大规模数据的并行处理程序</span><br><span class="line">		2，基于集群的高性能并行计算平台</span><br><span class="line">			我们可以在这个平台上做一些自定义的操作</span><br><span class="line">		3，并行程序设计模型和方法</span><br><span class="line">			咱一般说mapreduce是这个解释，mapreduce是一个编程模型，提供给我们一套使用的方式，我们只需要把自己的业务逻辑加进去。</span><br><span class="line">		4，并行程序开发和运行框架</span><br><span class="line">			是一个框架，其中有些代码和部分是缺失的，需要我们来填充内容。</span><br><span class="line">		5，MapReduce是一篇论文：在论文中把论文中的所有概念都描述清楚了。</span><br><span class="line">	</span><br><span class="line">	8，MapReduce的两个概念：</span><br><span class="line">		Map	： Map阶段 :</span><br><span class="line">			Map阶段就是映射阶段。</span><br><span class="line">			从数据集中提取key-value的映射关系，这些数据集中提取本次需要的数据，一行数据中只有一小部分本次有用。</span><br><span class="line">			提取到的key-value还有个作用，就是按照某个种类分类的作用。</span><br><span class="line">			前面介绍到并行程序就是要把大块数据按照特点整理为小块数据处理，这里的特点就是key值</span><br><span class="line">			在Map阶段就是要确定把哪个值从原始数据中提取出来作为key值，这个key值就是我们的分组的标准，</span><br><span class="line">			要拿出来哪些数据段作为value，进行传递进行计算</span><br><span class="line">		Reduce	： Reduce阶段</span><br><span class="line">			Reduce合并阶段。</span><br><span class="line">			计算方法也就是业务逻辑一般都写在reduce中，因为reduce阶段是可以进行合并的。这个合并过程就是按照我们所写的代码合并就可以了，对于同一种类下的数据进行合并，key相同的数据就认为是同一种类的数据。</span><br><span class="line"></span><br><span class="line">&lt;property&gt;</span><br><span class="line">        &lt;name&gt;yarn.application.classpath&lt;/name&gt;</span><br><span class="line">        &lt;value&gt;/home/briup/桌面/bigdata/links/hadoop/etc/hadoop:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/common/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/common/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/hdfs/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/mapreduce/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/mapreduce/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn/lib/*:/home/briup/桌面/bigdata/links/hadoop/share/hadoop/yarn/*</span><br><span class="line">&lt;/value&gt;</span><br><span class="line">&lt;/property&gt;</span><br><span class="line">	9，MapReduce的数据流向:mapreduce数据流.png</span><br><span class="line">		Map阶段：</span><br><span class="line">			进 : 会接受到一对key-value，这个key-value是原始数据</span><br><span class="line">			出 : 一对key-value，从原始数据中进行整理处理，得到我们想要的key-value。</span><br><span class="line">		shuffle：混洗阶段（分区，分组，排序）</span><br><span class="line"> 				分区是在map中实现的，但是分组和排序是在reduce中实现的；</span><br><span class="line">			map输出的数据会经过混洗阶段，在这里会进行分类，把key相同的key-value数据当做同一个类，分到一个区中，分区。</span><br><span class="line">			分区完成以后，key值相同的数据就到了一起，指的是在硬盘上到存到了一起。</span><br><span class="line">			排序：</span><br><span class="line">			Map输出的数据分到哪一个Reduce中。</span><br><span class="line">		Reduce阶段：</span><br><span class="line">			进 :  key:[value,value,....]</span><br><span class="line">			出 :  也是key-value结构，可能一个也可能多个。</span><br><span class="line">			</span><br><span class="line">		注意:MapReuce是一个并行程序，后期会运行在多个节点上，一些节点运行Map 一些节点运行Reduce。</span><br><span class="line"></span><br><span class="line">yarn jar bs.bigdata-1.0-SNAPSHOT.jar com.briup.bs.bigdata.MR.WorldConutTest -D input=/MR/data/word.txt -D output=/MR/result/wordcount_re</span><br><span class="line"></span><br><span class="line"> hdfs dfs -<span class="built_in">cat</span> /MR/result/wordcount_rrrr/*</span><br><span class="line"></span><br><span class="line">错误: 找不到或无法加载主类 org.apache.hadoop.mapreduce.v2.app.MRAppMaster</span><br><span class="line">运行hadoop classpath</span><br><span class="line">复制返回结果</span><br><span class="line">打开vi bigdata/links/hadoop/etc/hadoop/yarn-site.xml</span><br><span class="line">&lt;property&gt;</span><br><span class="line">        &lt;name&gt;yarn.application.classpath&lt;/name&gt;</span><br><span class="line">        &lt;value&gt;hadoop classpath返回信息&lt;/value&gt;</span><br><span class="line">&lt;/property&gt;</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
 
-<h3 id="Yarn工作流程"><a href="#Yarn工作流程" class="headerlink" title="Yarn工作流程"></a>Yarn工作流程</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$Step1</span>：MR提交程序到客户端所在的节点</span><br><span class="line">Step2：YarnRunner向MR申请Application</span><br><span class="line">Step3：RM将该应用程序的在原返回给YarnRunner</span><br><span class="line">Step4：该程序所运行资源提交到HDFS上（切片，job信息，jar包）</span><br><span class="line">Step5：申请运行MRAPPMaster</span><br><span class="line">Step6：RM将用户的请求初始化为task</span><br><span class="line">Step7：其中一个nidemanager领取到Task任务</span><br><span class="line">Step8：该nodemanager创建容器Container，并且产生MRAPPmaster</span><br><span class="line">Step9: Container从hdfs上拷贝资源到本地</span><br><span class="line">Step10：MRAPPMaster向MR申请MapTask资源</span><br><span class="line">Step11:RM将运行的mapTask任务分配给另外俩两个Nodemanager，创建container容器</span><br><span class="line">Step12:MR向mapTask发送启动脚本的，nodemanager分别启动mapTask，maptask对数据进行分区排序</span><br><span class="line">Step13：MR根据MapTask分区，向RM申请ReduceTask容器</span><br><span class="line">Step14：reduceTask向maptask获取相对用分区的数据</span><br><span class="line">Step15：程序运行结束之后，注销</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="Yarn工作流程"><a href="#Yarn工作流程" class="headerlink" title="Yarn工作流程"></a>Yarn工作流程</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$Step1</span>：MR提交程序到客户端所在的节点</span><br><span class="line">Step2：YarnRunner向MR申请Application</span><br><span class="line">Step3：RM将该应用程序的在原返回给YarnRunner</span><br><span class="line">Step4：该程序所运行资源提交到HDFS上（切片，job信息，jar包）</span><br><span class="line">Step5：申请运行MRAPPMaster</span><br><span class="line">Step6：RM将用户的请求初始化为task</span><br><span class="line">Step7：其中一个nidemanager领取到Task任务</span><br><span class="line">Step8：该nodemanager创建容器Container，并且产生MRAPPmaster</span><br><span class="line">Step9: Container从hdfs上拷贝资源到本地</span><br><span class="line">Step10：MRAPPMaster向MR申请MapTask资源</span><br><span class="line">Step11:RM将运行的mapTask任务分配给另外俩两个Nodemanager，创建container容器</span><br><span class="line">Step12:MR向mapTask发送启动脚本的，nodemanager分别启动mapTask，maptask对数据进行分区排序</span><br><span class="line">Step13：MR根据MapTask分区，向RM申请ReduceTask容器</span><br><span class="line">Step14：reduceTask向maptask获取相对用分区的数据</span><br><span class="line">Step15：程序运行结束之后，注销</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
                 
             </div>
             <hr/>
@@ -478,7 +588,7 @@
             <div class="reprint__author">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-user">
-                        Author:
+                        文章作者:
                     </i>
                 </span>
                 <span class="reprint-info">
@@ -488,23 +598,23 @@
             <div class="reprint__type">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-link">
-                        Link:
+                        文章链接:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/04/05/hadoop/">http://example.com/2022/04/05/hadoop/</a>
+                    <a href="http://zfy1204.github.io/2022/04/05/hadoop/">http://zfy1204.github.io/2022/04/05/hadoop/</a>
                 </span>
             </div>
             <div class="reprint__notice">
                 <span class="reprint-meta" style="font-weight: bold;">
                     <i class="fas fa-copyright">
-                        Reprint policy:
+                        版权声明:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    All articles in this blog are used except for special statements
+                    本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    reprint policy. If reproduced, please indicate source
+                    许可协议。转载请注明来源
                     <a href="/about" target="_blank">zfy1204</a>
                     !
                 </span>
@@ -514,7 +624,7 @@
 
     <script async defer>
       document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
         M.toast({html: toastHTML})
       });
 
@@ -529,7 +639,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -679,6 +789,60 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2022-04-05T22-11-26',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
+
+    
+        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
+
+<div class="gitment-card card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitment-content" class="card-content"></div>
+</div>
+
+<script src="/libs/gitment/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: 'Tue Apr 05 2022 22:11:26 GMT+0800',
+    owner: '',
+    repo: '',
+    oauth: {
+        client_id: '',
+        client_secret: ''
+    }
+});
+
+gitment.render('gitment-content');
+</script>
 
     
 
@@ -701,18 +865,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/04/05/hadoop/">
+                <a href="/2022/05/24/markdown/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="zfy的hadoop学习历程">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="使用md">
                         
-                        <span class="card-title">zfy的hadoop学习历程</span>
+                        <span class="card-title">使用md</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -722,9 +885,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-05
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-24
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -733,7 +896,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -741,7 +903,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/04/04/test/">
@@ -803,7 +965,7 @@
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -894,16 +1056,12 @@
 <style>
     .aplayer .aplayer-lrc p {
         
-        display: none;
-        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
     }
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
         
         font-size: 15px;
         color: #42b983;
@@ -926,12 +1084,12 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="2483611078"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
                    loop='all'
-                   order='random'
+                   order='list'
                    preload='auto'
                    volume='0.7'
                    list-folded='true'
@@ -963,13 +1121,13 @@
             
             
                 <span id="busuanzi_container_site_pv">
-                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;Total visits:&nbsp;
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
                     <span id="busuanzi_value_site_pv" class="white-color"></span>
             </span>
             
             
                 <span id="busuanzi_container_site_uv">
-                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;Total visitors:&nbsp;
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
                     <span id="busuanzi_value_site_uv" class="white-color"></span>
             </span>
             
@@ -990,6 +1148,9 @@
     <a href="mailto:2567251461@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
+
+
+
 
 
 
@@ -1022,8 +1183,8 @@
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
@@ -1139,6 +1300,15 @@ $(function () {
 
     
 
+    
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 雪花特效 -->

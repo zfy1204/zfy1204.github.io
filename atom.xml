@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Z F Y</title>
+  
+  <subtitle>啊景@zfy1204</subtitle>
+  <link href="http://zfy1204.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://zfy1204.github.io/"/>
+  <updated>2022-06-04T10:18:02.028Z</updated>
+  <id>http://zfy1204.github.io/</id>
+  
+  <author>
+    <name>zfy1204</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用md</title>
+    <link href="http://zfy1204.github.io/2022/05/24/markdown/"/>
+    <id>http://zfy1204.github.io/2022/05/24/markdown/</id>
+    <published>2022-05-23T22:53:36.206Z</published>
+    <updated>2022-06-04T10:18:02.028Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;欢迎使用Markdown编辑器&quot;&gt;&lt;a href=&quot;#欢迎使用Markdown编辑器&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用Markdown编辑器&quot;&gt;&lt;/a&gt;欢迎使用Markdown编辑器&lt;/h1&gt;&lt;p&gt;你好！ 这是你第一次使用</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>zfy的hadoop学习历程</title>
+    <link href="http://zfy1204.github.io/2022/04/05/hadoop/"/>
+    <id>http://zfy1204.github.io/2022/04/05/hadoop/</id>
+    <published>2022-04-05T14:11:26.782Z</published>
+    <updated>2022-04-05T14:53:35.126Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Hadoop-Start&quot;&gt;&lt;a href=&quot;#Hadoop-Start&quot; class=&quot;headerlink&quot; title=&quot;Hadoop Start&quot;&gt;&lt;/a&gt;Hadoop Start&lt;/h2&gt;&lt;h3 id=&quot;Hadoo启动和集群搭建&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>zfy的测试学习历程</title>
+    <link href="http://zfy1204.github.io/2022/04/04/test/"/>
+    <id>http://zfy1204.github.io/2022/04/04/test/</id>
+    <published>2022-04-04T14:51:44.648Z</published>
+    <updated>2022-04-05T14:47:52.509Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Test-Start&quot;&gt;&lt;a href=&quot;#Test-Start&quot; class=&quot;headerlink&quot; title=&quot;Test Start&quot;&gt;&lt;/a&gt;Test Start&lt;/h2&gt;&lt;h3 id=&quot;软件测试理论基础&quot;&gt;&lt;a href=&quot;#软件测试理论基础&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
